@@ -1,0 +1,83 @@
+\begin{tabular}{l|c|c|c|c|}
+\toprule
+File & \multicolumn{2}{c|}{branch} & \multicolumn{2}{c|}{memory} \\
+& \#fences & time & \#fences & time\\
+\midrule
+test1.ll & 1 & 0.48 & 1 & 0.31\\
+test1.ll & 1 & 0.32 & 1 & 0.31\\
+test1.ll & 1 & 0.32 & 1 & 0.31\\
+test10.ll & 2 & 0.72 & 2 & 0.65\\
+test10.ll & 2 & 0.72 & 2 & 0.65\\
+test10.ll & 2 & 0.72 & 2 & 0.65\\
+test11.ll & 1 & 0.35 & 1 & 0.40\\
+test11.ll & 1 & 0.35 & 1 & 0.40\\
+test11.ll & 1 & 0.35 & 1 & 0.40\\
+test12.ll & 1 & 0.36 & 1 & 0.41\\
+test12.ll & 1 & 0.36 & 1 & 0.41\\
+test12.ll & 1 & 0.35 & 1 & 0.41\\
+test13.ll & 1 & 0.34 & 1 & 0.41\\
+test13.ll & 1 & 0.34 & 1 & 0.41\\
+test13.ll & 1 & 0.34 & 1 & 0.41\\
+test14.ll & 1 & 0.35 & 1 & 0.41\\
+test14.ll & 1 & 0.35 & 1 & 0.40\\
+test14.ll & 1 & 0.35 & 1 & 0.40\\
+test15.ll & 1 & 0.37 & 1 & 0.54\\
+test15.ll & 1 & 0.38 & 1 & 0.55\\
+test15.ll & 1 & 0.38 & 1 & 0.55\\
+test2.ll & 1 & 0.35 & 1 & 0.41\\
+test2.ll & 1 & 0.35 & 1 & 0.41\\
+test2.ll & 1 & 0.35 & 1 & 0.41\\
+test2\_2.ll & 1 & 0.35 & 1 & 0.41\\
+test2\_2.ll & 1 & 0.35 & 1 & 0.41\\
+test2\_2.ll & 1 & 0.35 & 1 & 0.41\\
+test3.ll & 1 & 0.36 & 1 & 0.41\\
+test3.ll & 1 & 0.35 & 1 & 0.41\\
+test3.ll & 1 & 0.35 & 1 & 0.41\\
+test3\_2.ll & 1 & 0.35 & 1 & 0.40\\
+test3\_2.ll & 1 & 0.35 & 1 & 0.40\\
+test3\_2.ll & 1 & 0.35 & 1 & 0.40\\
+test4.ll & 1 & 0.36 & 1 & 0.41\\
+test4.ll & 1 & 0.35 & 1 & 0.41\\
+test4.ll & 1 & 0.36 & 1 & 0.41\\
+test5-old.ll & 3 & 1.95 & 3 & 1.57\\
+test5-old.ll & 3 & 1.95 & 3 & 1.69\\
+test5-old.ll & 3 & 1.80 & 3 & 1.57\\
+test5-rec.ll & 1 & 0.47 & 1 & 0.36\\
+test5-rec.ll & 1 & 0.47 & 1 & 0.36\\
+test5-rec.ll & 1 & 0.47 & 1 & 0.36\\
+test5.ll & 2 & 1.51 & 1 & 0.56\\
+test5.ll & 2 & 1.53 & 1 & 0.56\\
+test5.ll & 2 & 1.54 & 1 & 0.56\\
+test6.ll & 1 & 0.39 & 1 & 0.45\\
+test6.ll & 1 & 0.39 & 1 & 0.45\\
+test6.ll & 1 & 0.39 & 1 & 0.45\\
+test7.ll & 2 & 1.06 & 2 & 0.95\\
+test7.ll & 2 & 1.07 & 2 & 0.94\\
+test7.ll & 2 & 1.06 & 2 & 0.94\\
+test8.ll & 2 & 0.63 & 1 & 0.45\\
+test8.ll & 2 & 0.63 & 1 & 0.45\\
+test8.ll & 2 & 0.63 & 1 & 0.45\\
+test9.ll & 1 & 0.40 & 1 & 0.60\\
+test9.ll & 1 & 0.40 & 1 & 0.60\\
+test9.ll & 1 & 0.40 & 1 & 0.60\\
+\midrule
+openssl-aes\_encrypt.ll & 3 & 9.66 & 3 & 55.66\\
+openssl-aes\_encrypt.ll & 3 & 9.86 & 3 & 65.33\\
+openssl-aes\_encrypt.ll & 3 & 9.35 & 3 & 63.76\\
+openssl-aes\_encrypt\_ct.ll & 9 & 344.54 & 6 & 264.19\\
+openssl-aes\_encrypt\_ct.ll & 9 & 319.66 & 6 & 277.37\\
+openssl-aes\_encrypt\_ct.ll & 9 & 365.85 & 6 & 247.09\\
+openssl-bn\_exp.ll & 5 & 38.37 & 5 & 20.89\\
+openssl-bn\_exp.ll & 5 & 38.18 & 5 & 20.37\\
+openssl-bn\_exp.ll & 5 & 38.13 & 5 & 20.24\\
+openssl-bn\_mul.ll & 13 & 52.36 & 7 & 20.27\\
+openssl-bn\_mul.ll & 13 & 52.52 & 7 & 20.47\\
+openssl-bn\_mul.ll & 13 & 54.72 & 7 & 22.41\\
+openssl-bn\_mul\_recursive.ll & 0 & 0.09 & 0 & 0.09\\
+openssl-bn\_mul\_recursive.ll & 0 & 0.09 & 0 & 0.09\\
+openssl-bn\_mul\_recursive.ll & 0 & 0.09 & 0 & 0.09\\
+openssl-bn\_sqr.ll & 12 & 55.62 & 9 & 41.43\\
+openssl-bn\_sqr.ll & 12 & 58.51 & 9 & 39.89\\
+openssl-bn\_sqr.ll & 12 & 55.92 & 9 & 41.52\\
+\bottomrule
+\end{tabular}

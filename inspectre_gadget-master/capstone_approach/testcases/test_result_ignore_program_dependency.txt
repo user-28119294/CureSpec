@@ -1,0 +1,24 @@
+++  ./Kocher_tests/v01/ 1
+++  ./Kocher_tests/v02/ 1
+++  ./Kocher_tests/v03/ 1
+++  ./Kocher_tests/v04/ 1
+++  ./Kocher_tests/v05/ 1
+++  ./Kocher_tests/v06/ 1
+++  ./Kocher_tests/v07/ 1
++-  ./Kocher_tests/v08/
+++  ./Kocher_tests/v09/ 1
++-  ./Kocher_tests/v10/
+++  ./Kocher_tests/v11/ 1
+++  ./Kocher_tests/v12/ 1
++-  ./Kocher_tests/v13/
+++  ./Kocher_tests/v14/ 1
+++  ./Kocher_tests/v15/ 1
+++  ./tests/v01/ 1
+++  ./tests/v02/ 1
+++  ./tests/v03/ 1
++-  ./tests/v04/
+++  ./tests/v05/ 1
+++  ./tests/v06/ 1
+--  ./negtives/not_dep/
+--  ./negtives/pointer/
+--  ./negtives/structure/
